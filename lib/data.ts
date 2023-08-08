@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import adopts from "@/public/adopts.png";
 import lazyautumn from "@/public/lazyautumn.png";
 import travelmemory from "@/public/travelmemory.png";
+import swibble from "@/public/swibble.png";
 
 export const links = [
   {
@@ -61,25 +62,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Lazy Autumn Recipes",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "My first project as a student in Wild Code School. It is a recipe website  where users can filter recipes by choosing an ingredient. It was created in team of four and uses JS, HTML and CSS",
+    tags: ["JS", "HTML", "CSS"],
     imageUrl: lazyautumn,
   },
   {
-    title: "rmtDev",
+    title: "Adopts",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Adopt Don`t Shop use The Dog API to provide with information about different breeds and display dogs' photos. The initial goal of the project is to promote adoption over buying, help with choice of the dog and the most important - brigthen up the mood of a user.",
+    tags: ["React", "CSS", "HTML5", "JavaScript", "Axios"],
     imageUrl: adopts,
   },
   {
-    title: "Word Analytics",
+    title: "Travel Memory Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Travel Memory Game is a React application built in 24 hours for a school hackathon project at the Wild Code School in Berlin",
+    tags: ["React", "JavaScript", "CSS"],
     imageUrl: travelmemory,
+  },
+  {
+    title: "Swibble",
+    description:
+      "Swibble is a Next.js customer management application built as a third team project",
+    tags: ["Next.js", "Gitlab", "ExpressJS", "Tailwind", "MySQL"],
+    imageUrl: swibble,
   },
 ] as const;
 
