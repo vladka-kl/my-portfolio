@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "Adopts",
     description:
-      "Adopt Don`t Shop use The Dog API to provide with information about different breeds and display dogs' photos. The initial goal of the project is to promote adoption over buying, help with choice of the dog and the most important - brigthen up the mood of a user.",
+      "Adopt Don`t Shop use The Dog API to provide with information about different breeds and display dogs' photos.",
     tags: ["React", "CSS", "HTML5", "JavaScript", "Axios"],
     imageUrl: adopts,
   },
